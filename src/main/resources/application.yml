@@ -1,0 +1,69 @@
+# ============================================================
+# Payment Anomaly Detector — Application Configuration
+# ============================================================
+
+spring:
+  application:
+    name: payment-anomaly-detector
+
+  # ---- Database (H2 in-memory for local testing) ----
+  datasource:
+    url: jdbc:h2:mem:anomalydb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: true          # Visit http://localhost:8080/h2-console
+      path: /h2-console
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop  # Auto-creates tables on startup
+    show-sql: true
+
+  # ---- Kafka ----
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+# ---- OpenAI ----
+openai:
+  api-key: ${OPENAI_API_KEY:your-api-key-here}
+  model: gpt-3.5-turbo
+  base-url: https://api.openai.com
+
+# ---- Server ----
+server:
+  port: 8080
+
+# ---- Logging ----
+logging:
+  level:
+    com.wex.anomaly: DEBUG
+    org.springframework.kafka: INFO
+
+# ---- Swagger / OpenAPI ----
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    try-it-out-enabled: true
+    operations-sorter: alpha
+    display-request-duration: true
+
+
+  springdoc:
+    swagger-ui:
+      path: /swagger-ui.html
+    api-docs:
+      path: /api-docs
+  spring:
+    mvc:
+      pathmatch:
+        matching-strategy: ant_path_matcher

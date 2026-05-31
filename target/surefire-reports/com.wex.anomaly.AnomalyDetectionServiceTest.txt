@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.wex.anomaly.AnomalyDetectionServiceTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.657 s -- in com.wex.anomaly.AnomalyDetectionServiceTest

@@ -1,0 +1,16 @@
+# ============================================================
+# PostgreSQL profile — activate with: -Dspring.profiles.active=postgres
+# ============================================================
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/anomalydb
+    driver-class-name: org.postgresql.Driver
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false

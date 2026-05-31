@@ -1,0 +1,13 @@
+G:\Backend\payment-anomaly-detector\payment-anomaly-detector\src\main\java\com\wex\anomaly\model\AnalysisResult.java
+G:\Backend\payment-anomaly-detector\payment-anomaly-detector\src\main\java\com\wex\anomaly\config\SwaggerConfig.java
+G:\Backend\payment-anomaly-detector\payment-anomaly-detector\src\main\java\com\wex\anomaly\service\KafkaPublisherService.java
+G:\Backend\payment-anomaly-detector\payment-anomaly-detector\src\main\java\com\wex\anomaly\config\OpenAIConfig.java
+G:\Backend\payment-anomaly-detector\payment-anomaly-detector\src\main\java\com\wex\anomaly\controller\TransactionController.java
+G:\Backend\payment-anomaly-detector\payment-anomaly-detector\src\main\java\com\wex\anomaly\model\TransactionAnalysis.java
+G:\Backend\payment-anomaly-detector\payment-anomaly-detector\src\main\java\com\wex\anomaly\model\TransactionRequest.java
+G:\Backend\payment-anomaly-detector\payment-anomaly-detector\src\main\java\com\wex\anomaly\PaymentAnomalyDetectorApplication.java
+G:\Backend\payment-anomaly-detector\payment-anomaly-detector\src\main\java\com\wex\anomaly\repository\TransactionRepository.java
+G:\Backend\payment-anomaly-detector\payment-anomaly-detector\src\main\java\com\wex\anomaly\service\AnomalyDetectionService.java
+G:\Backend\payment-anomaly-detector\payment-anomaly-detector\src\main\java\com\wex\anomaly\service\OpenAIService.java
+G:\Backend\payment-anomaly-detector\payment-anomaly-detector\src\main\java\com\wex\anomaly\controller\GlobalExceptionHandler.java
+G:\Backend\payment-anomaly-detector\payment-anomaly-detector\src\main\java\com\wex\anomaly\config\KafkaConfig.java
