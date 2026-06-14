@@ -1,4 +1,4 @@
-Here's a cleaner, professional GitHub README format with badges, architecture, features, and better section organization.
+
 
 # 🚀 Payment Anomaly Detector
 
