@@ -1,6 +1,6 @@
 
 
-# 🚀 Payment Anomaly Detector
+# Payment Anomaly Detector
 
 AI-powered payment anomaly detection system built using **Spring Boot**, **OpenAI Function Calling**, **Apache Kafka**, and **PostgreSQL/H2**.
 
@@ -8,15 +8,15 @@ The application analyzes payment transactions, detects anomalies using LLM-based
 
 ---
 
-## ✨ Features
+## Features
 
-* 🤖 AI-driven transaction analysis using OpenAI Function Calling
-* ⚡ Real-time event routing via Apache Kafka
-* 🔄 Idempotency support to prevent duplicate processing
-* 🗄️ Audit trail storage in PostgreSQL or H2
-* 📊 REST APIs for transaction analysis and reporting
-* 🐳 Docker Compose setup for local infrastructure
-* 🧪 Unit and integration test support
+* AI-driven transaction analysis using OpenAI Function Calling
+* Real-time event routing via Apache Kafka
+* Idempotency support to prevent duplicate processing
+* Audit trail storage in PostgreSQL or H2
+* REST APIs for transaction analysis and reporting
+* Docker Compose setup for local infrastructure
+*  Unit and integration test support
 
 ---
 
@@ -390,57 +390,6 @@ Kafka UI:
 
 ```text
 http://localhost:8090
-```
 
----
-
-# 🎯 Interview Talking Points
-
-### Why OpenAI Function Calling?
-
-* Structured and deterministic AI responses
-* Eliminates free-text parsing
-* Easier integration with backend services
-
-### Why Kafka?
-
-* Decouples fraud detection from downstream processing
-* Supports event-driven architecture
-* Scales independently
-
-### Why Idempotency?
-
-* Prevents duplicate processing
-* Saves OpenAI token costs
-* Ensures consistency across retries
-
-### Why Store Audit Records?
-
-* Regulatory compliance
-* Fraud investigations
-* Historical analytics
-
----
-
-## Future Enhancements
-
-* Redis caching
-* Fraud scoring engine
-* Real-time dashboards
-* Kafka consumers for downstream actions
-* Vector-based merchant profiling
-* Multi-model AI routing
-
----
-
-## Author
-
-Built as a demonstration project for:
-
-* AI + Spring Boot Integration
-* Event-Driven Architecture
-* Kafka Messaging
-* OpenAI Function Calling
-* Financial Fraud Detection
 
 
